@@ -2,7 +2,7 @@
 <ModMetaData>
 	<name>Explosive firearms now explode</name>
 	<author>Menu</author>
-	<url>TBD</url>
+	<url>https://github.com/Menu-Rw/Explosive-Firearms-now-explode</url>
 	<targetVersion>0.19.0</targetVersion>
 	<description>All explosive firearms now explode when damaged (Frag, Emp, Molotovs as well as the two vanilla launchers), should you be masochistic enough to want this... Why would you ever want this?
 	Credit to NukaFrog for help with xpatching.</description>
