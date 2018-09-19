@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Patch>
+    <Operation Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Gun_TripleRocket"]/comps</xpath>
+        <value>
+             <comps>
+                 <li Class="CompProperties_Explosive">
+                     <explosiveRadius>4.3</explosiveRadius>
+                     <explosiveDamageType>Flame</explosiveDamageType>
+                     <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                     <wickTicks>
+                        <min>30</min>
+                        <max>60</max>
+                     </wickTicks>
+                 </li>
+             </comps>
+        </value>
+    </Operation>
+	<Operation Class="PatchOperationReplace">
+        <xpath>*/ThingDef[defName = "Gun_DoomsdayRocket"]/comps</xpath>
+        <value>
+             <comps>
+                 <li Class="CompProperties_Explosive">
+                     <explosiveRadius>7.8</explosiveRadius>
+                     <explosiveDamageType>Flame</explosiveDamageType>
+                     <startWickHitPointsPercent>0.7</startWickHitPointsPercent>
+                     <wickTicks>
+                        <min>30</min>
+                        <max>60</max>
+                     </wickTicks>
+                 </li>
+             </comps>
+        </value>
+    </Operation>
+</Patch>
